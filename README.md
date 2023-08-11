@@ -1,1 +1,2 @@
-# js_todo
+# ToDo List App In JS
+

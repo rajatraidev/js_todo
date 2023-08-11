@@ -4,7 +4,7 @@ function addToList(){
 	document.getElementById("numberOfRows").value = count + 1;
     const number = parseInt(document.getElementById("numberOfRows").value);
     let input = document.getElementById('todo-input').value;
-    let design = '<p id="light_'+number+'" class="list-data"><input type="checkbox" onclick="highLight('+number+')">'+input+'<button onclick="delList('+number+')" class="close-button"><span>&times;</span></button></p>';
+    let design = '<p id="light_'+number+'" class="list-data"><input type="checkbox" onclick="highLight('+number+')">'+input+'<button onclick="delList('+number+')" class="close-button"><span>&times</span></button></p>';
     data.push(input);
     document.getElementById("list-data").innerHTML += design;
     document.cookie = "data="+design;

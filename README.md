@@ -1,2 +1,1 @@
-# ToDo List App In JS
-
+# ToDo List App In Vanilla Javascript

@@ -13,7 +13,7 @@ function addToList(){
 show();
 function show(){
     let getData = document.cookie;
-    let length = data.length;
+    console.log(getData);
     let design = '';
     for (let i = 0; i < length; i++) {
         design += '<p id="light_'+i+'" class="list-data"><input type="checkbox" onclick="highLight('+i+')">'+data[i]+'<button onclick="delList('+i+')" class="close-button"><span>&times;</span></button></p>';
